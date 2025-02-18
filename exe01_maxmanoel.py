@@ -3,8 +3,8 @@
 #de BX(baixo risco) ou AL(alto risco) se for fornecido algo diferente disto o programa deve mostrar uma mensagem indicando
 #que foi fornecido dado inválido. Para o valor ser deve ser um número real.
 
-n1 = float(input("Digite o valor que sera investido : "))
-n2 = float(input("Digite o grau de risco que voce quer : "))
+n1 = int(input("Digite o valor que sera investido : "))
+n2 = int(input("Digite o grau de risco que voce quer : "))
 soma = valor <1000.00 and valor >= 1000.00
 if risco != "BX" and risco != "AL":
         print("Dado inválido para o grau de risco.")
