@@ -3,21 +3,26 @@
 #de BX(baixo risco) ou AL(alto risco) se for fornecido algo diferente disto o programa deve mostrar uma mensagem indicando
 #que foi fornecido dado inválido. Para o valor ser deve ser um número real.
 
-n1 = int(input("Digite o valor que sera investido : "))
-n2 = int(input("Digite o grau de risco que voce quer : "))
-soma = valor <1000.00 and valor >= 1000.00
-if risco != "BX" and risco != "AL":
-        print("Dado inválido para o grau de risco.")
+grau = input("Digite o grau de risco que você quer: ")
+valor = int(input("Digite o valor à ser investido: "))
+if grau == 'BX' and valor < 1000:
+    print('Coloque na poupança')
+    print("MAX MANOEL")
+
+elif grau == 'BX' and valor >= 1000:
+    print('Coloque na Renda Fixa')
+    print("MAX MANOEL")
+
+elif grau == 'AL' and valor < 1000:
+    print('Coloque em bitcoins')
+    print("MAX MANOEL")
+
+elif grau == 'AL' and valor >= 1000:
+    print('Coloque em ações')
+    print("MAX MANOEL")
+
 else:
-     if valor < 1000.00:
-        if risco == "BX":
-         print("Aplicação recomendada: Poupança (baixo risco).")
-        else:
-            print("Aplicação recomendada: Renda fixa (alto risco).")
-        else:
-        if risco == "BX":
-            print("Aplicação recomendada: CDB (baixo risco).")
-else:
-            print("Aplicação recomendada: Ações (alto risco).")
-            
+    print('dado inválido')
+    print("MAX MANOEL")
+
  
